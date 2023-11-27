@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}My Flask App{% endblock %}</title>
+    <!-- Include common CSS files or stylesheets here -->
+</head>
+<body>
+    <header>
+        <h1>{% block header %}My Flask App{% endblock %}</h1>
+        <!-- Include common navigation or header content here -->
+    </header>
+
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer>
+        <!-- Include common footer content or scripts here -->
+    </footer>
+</body>
+</html>
